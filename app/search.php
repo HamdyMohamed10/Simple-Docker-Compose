@@ -8,8 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Query the database to find articles that match the search term
     $db_host = 'db';
-    $db_user = 'my_user';
-    $db_password = 'my_password';
+    $db_user = 'root';
+    $db_password = 'password';
     $db_name = 'hamdydb';
 
     $conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
